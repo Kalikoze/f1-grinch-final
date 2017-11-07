@@ -25,7 +25,7 @@ describe('Who', function() {
 
   it.skip('should only have room for three presents', function() {
     var who = new Who('Cindy-Lou');
-    var grinch = new Grinch({mood: 'maniacal', trinkets: ['drums', 'bicycles', 'plums', 'tricycles']});
+    var grinch = new Grinch({mood: 'maniacal', presents: ['drums', 'bicycles', 'plums', 'tricycles']});
     who.sing(grinch);
     who.sing(grinch);
     who.sing(grinch);
