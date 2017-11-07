@@ -16,7 +16,7 @@ describe('Who', function() {
 
   it.skip('should earn the first of the grinch\'s presents when it sings to him', function() {
     var who = new Who('Cindy-Lou');
-    var grinch = new Grinch({presents: ['bicycles', 'plums', 'tricycles']})
+    var grinch = new Grinch({presents: ['bicycles', 'plums', 'tricycles']});
     who.sing(grinch);
     assert.equal(who.presents.length, 1);
     assert.equal(who.presents[0], 'bicycles');
